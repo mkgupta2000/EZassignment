@@ -1,0 +1,22 @@
+.Rectangle {
+  top: 72px;
+  left: 537px;
+  width: 1383px;
+  height: 204px;
+  background: transparent 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+}
+.Edit-btn {
+  margin-left: 1230px;
+  top: 90px;
+  left: 1748px;
+  width: 156px;
+  height: 41px;
+  /* UI Properties */
+  background: #3cc3f2 0% 0% no-repeat padding-box;
+  border: 1px solid #3cc3f2;
+  border-radius: 8px;
+  opacity: 1;
+  cursor: pointer;
+}

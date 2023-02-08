@@ -1,6 +1,6 @@
 import "./CompanyNameList.css";
 
-import React from "react";
+import { SideBarCards } from "./SideBarCards";
 
 export const CompanyNameList = () => {
   return (
@@ -12,7 +12,19 @@ export const CompanyNameList = () => {
           alt="april 2021"
         />
       </div>
-      <div>comapny name</div>
+      <div>
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+        <SideBarCards />
+      </div>
     </>
   );
 };

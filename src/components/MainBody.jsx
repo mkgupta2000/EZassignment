@@ -1,11 +1,13 @@
 import React from "react";
 import { Box } from "@mui/material";
+import { MainBodyHeader } from "./MainBodyHeader";
+import { Rectangle } from "./Rectangle";
 
 export const MainBody = () => {
   return (
     <Box
       sx={{
-        border: "1px solid black",
+        border: "1px solid green",
         height: "100%",
         widht: "60vw",
         padding: "0",
@@ -13,7 +15,10 @@ export const MainBody = () => {
       }}
     >
       <div>
-        <h1>main body</h1>
+        <MainBodyHeader />
+      </div>
+      <div>
+        <Rectangle />
       </div>
     </Box>
   );
