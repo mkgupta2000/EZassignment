@@ -1,0 +1,9 @@
+.ClientsHeader {
+  width: 339px;
+  border: 1px solid red;
+  height: 80px;
+}
+
+.Box-one {
+  display: flex;
+}
