@@ -15,12 +15,16 @@ export const ClientsHeader = () => {
         </div>
         <div>Arrow icon</div>
         <div className="Creation-Time">Creation Time</div>
-        <div>
-          <AddBoxIcon color="primary" className="AddBoxIcon" />
+        <div className="AddBoxIcon">
+          <AddBoxIcon fontSize="large" color="primary" />
         </div>
       </div>
-      <div className="">
-        <img src="./images/Group 470.jpg" className="Box-two" alt="searchbar" />
+      <div className="box-two">
+        <input
+          type="text"
+          className="searchTerm"
+          placeholder="Company,Entity,User,domain,Service,Location"
+        ></input>
       </div>
     </div>
   );

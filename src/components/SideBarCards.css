@@ -19,3 +19,9 @@
   background-color: #112949;
   color: white;
 }
+.card-child {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}

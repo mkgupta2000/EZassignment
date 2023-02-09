@@ -6,6 +6,7 @@
 
 .Box-one {
   display: flex;
+  align-items: flex-end;
 }
 .Clients-Image {
   top: 16px;
@@ -28,18 +29,25 @@
   opacity: 1;
 }
 .AddBoxIcon {
-  top: 21px;
-  left: 498px;
-  width: 32px;
-  height: 32px;
-  opacity: 1;
-}
+  display: flex;
+  justify-content: flex-end;
 
-.Box-two {
+  align-items: center;
+  width: 60px;
+  height: 45px;
+}
+.box-two {
+  display: flex;
+  align-items: flex-end;
+
   top: 68px;
   left: 80px;
   width: 339px;
   height: 33px;
-  background: transparent 0% 0% no-repeat padding-box;
-  opacity: 1;
+}
+.searchTerm {
+  display: flex;
+  align-items: flex-end;
+  width: 400px;
+  height: 27px;
 }

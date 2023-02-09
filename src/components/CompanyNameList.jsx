@@ -3,6 +3,74 @@ import "./CompanyNameList.css";
 import { SideBarCards } from "./SideBarCards";
 
 export const CompanyNameList = () => {
+  const companyData = [
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+    {
+      companyName: "Company Name",
+      code: "CODE",
+      entities: "8 Entities",
+      users: "64 Users",
+    },
+  ];
   return (
     <>
       <div>
@@ -12,7 +80,16 @@ export const CompanyNameList = () => {
           alt="april 2021"
         />
       </div>
-      <div>
+      {companyData.map((data, index) => (
+        <SideBarCards
+          companyName={data.companyName}
+          code={data.code}
+          entities={data.entities}
+          users={data.users}
+          key={index}
+        />
+      ))}
+      {/* <div>
         <SideBarCards />
         <SideBarCards />
         <SideBarCards />
@@ -24,7 +101,7 @@ export const CompanyNameList = () => {
         <SideBarCards />
         <SideBarCards />
         <SideBarCards />
-      </div>
+      </div> */}
     </>
   );
 };
