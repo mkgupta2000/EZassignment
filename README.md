@@ -2,7 +2,7 @@
 # Plan on deploying this to the production environment
 1-before deploying we can think that what else we can improve, 
 2-well planned testing,
-3-and deploying it in a manner that it will take less time for user to upload.
+3-and deploying it in a manner that it will take less time for user to load.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
