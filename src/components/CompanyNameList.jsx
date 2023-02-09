@@ -98,19 +98,6 @@ export const CompanyNameList = () => {
           key={index}
         />
       ))}
-      {/* <div>
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-        <SideBarCards />
-      </div> */}
     </>
   );
 };

@@ -11,7 +11,7 @@
   display: flex;
 }
 
-.pdf-icon {
+.pdf-logo {
   top: 88px;
   left: 559px;
   width: 74px;
@@ -41,4 +41,30 @@
   border-radius: 8px;
   opacity: 1;
   cursor: pointer;
+}
+.boxDomain {
+  margin-bottom: -95px;
+  top: 152px;
+  left: 1027px;
+  width: 148px;
+  height: 99px;
+
+  margin-left: 500px;
+  display: flex;
+  justify-content: center;
+}
+.boxCompany-code {
+  top: 152px;
+  left: 553px;
+  width: 110px;
+  height: 67px;
+  opacity: 1;
+}
+.boxCompany-logo {
+  top: 218px;
+  left: 553px;
+  width: 106px;
+  height: 67px;
+
+  opacity: 1;
 }

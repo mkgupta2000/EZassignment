@@ -10,7 +10,7 @@
   opacity: 1;
 }
 .side-btnfirst {
-  margin-top: 95px;
+  margin-top: 22px;
   top: 120px;
   left: 16px;
   width: 40px;
@@ -29,4 +29,11 @@
   background: #eb9cba 0% 0% no-repeat padding-box;
   opacity: 1;
   cursor: pointer;
+}
+.ez-logo {
+  margin-top: 15px;
+  top: 32px;
+  left: 8px;
+  width: 43px;
+  height: 53px;
 }
