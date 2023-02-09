@@ -3,6 +3,8 @@ import { Box } from "@mui/material";
 import { MainBodyHeader } from "./MainBodyHeader";
 import { Rectangle } from "./Rectangle";
 
+import { MainbodyContent } from "./MainbodyContent";
+
 export const MainBody = () => {
   return (
     <Box
@@ -19,6 +21,9 @@ export const MainBody = () => {
       </div>
       <div>
         <Rectangle />
+      </div>
+      <div>
+        <MainbodyContent />
       </div>
     </Box>
   );

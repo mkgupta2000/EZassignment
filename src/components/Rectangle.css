@@ -48,7 +48,7 @@
   left: 1027px;
   width: 148px;
   height: 99px;
-
+  border: 1px solid blue;
   margin-left: 500px;
   display: flex;
   justify-content: center;

@@ -20,7 +20,7 @@ export const Rectangle = () => {
           <button className="Edit-btn">Edit</button>
         </div>
       </div>
-      <div className="boxDomain"></div>
+      <div className="boxDomain">hello world</div>
       <div className="boxCompany-code">
         <p style={{ color: "grey" }}>Company Code</p>
         <p style={{ color: "#112949" }}>LUCF</p>
