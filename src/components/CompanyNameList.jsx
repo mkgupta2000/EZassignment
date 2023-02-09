@@ -73,12 +73,21 @@ export const CompanyNameList = () => {
   ];
   return (
     <>
-      <div>
-        <img
-          src="./images/Group 76.jpg"
-          className="April-Image"
-          alt="april 2021"
-        />
+      <div className="select-month">
+        <select class="month-select">
+          <option value="January">January 2021</option>
+          <option value="February">February 2021 </option>
+          <option value="March">March 2021 </option>
+          <option value="April">April 2021</option>
+          <option value="May">May 2021</option>
+          <option value="June">June 2021</option>
+          <option value="July">July 2021</option>
+          <option value="August">August 2021</option>
+          <option value="September">September 2021</option>
+          <option value=" October"> October 2021</option>
+          <option value="November">November 2021</option>
+          <option value=" December"> December 2021</option>
+        </select>
       </div>
       {companyData.map((data, index) => (
         <SideBarCards

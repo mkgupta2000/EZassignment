@@ -1,6 +1,7 @@
 import React from "react";
 import "./ClientsHeader.css";
 import AddBoxIcon from "@mui/icons-material/AddBox";
+import SearchIcon from "@mui/icons-material/Search";
 
 export const ClientsHeader = () => {
   return (
@@ -25,6 +26,9 @@ export const ClientsHeader = () => {
           className="searchTerm"
           placeholder="Company,Entity,User,domain,Service,Location"
         ></input>
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
       </div>
     </div>
   );

@@ -51,3 +51,24 @@
   width: 400px;
   height: 27px;
 }
+.searchButton {
+  width: 40px;
+  height: 33px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.month-select {
+  top: 109px;
+  left: 72px;
+  width: 340px;
+  height: 31px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-color: #ebf2f5;
+}
