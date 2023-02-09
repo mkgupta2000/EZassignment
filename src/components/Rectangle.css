@@ -44,14 +44,13 @@
 }
 .boxDomain {
   margin-bottom: -95px;
+
   top: 152px;
   left: 1027px;
   width: 148px;
   height: 99px;
-  border: 1px solid blue;
+
   margin-left: 500px;
-  display: flex;
-  justify-content: center;
 }
 .boxCompany-code {
   top: 152px;
@@ -67,4 +66,19 @@
   height: 67px;
 
   opacity: 1;
+}
+h3 {
+  color: #707070;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+}
+.p-p {
+  color: #112949;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
 }

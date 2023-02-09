@@ -20,14 +20,29 @@ export const Rectangle = () => {
           <button className="Edit-btn">Edit</button>
         </div>
       </div>
-      <div className="boxDomain">hello world</div>
+      <div className="boxDomain">
+        <h3>Domains</h3>
+
+        <p className="p-p">@lucasfilm.com</p>
+        <p className="p-p">@lucasstarwars.com</p>
+        <p className="p-p">@starwars.com</p>
+        <p className="p-p">2 others</p>
+      </div>
       <div className="boxCompany-code">
-        <p style={{ color: "grey" }}>Company Code</p>
-        <p style={{ color: "#112949" }}>LUCF</p>
+        <p className="p-p" style={{ color: "grey" }}>
+          Company Code
+        </p>
+        <p className="p-p" style={{ color: "#112949" }}>
+          LUCF
+        </p>
       </div>
       <div className="boxCompany-logo">
-        <p style={{ color: "grey" }}>Company Logo</p>
-        <p style={{ color: "#112949" }}>Unavailable</p>
+        <p className="p-p" style={{ color: "grey" }}>
+          Company Logo
+        </p>
+        <p className="p-p" style={{ color: "#112949" }}>
+          Unavailable
+        </p>
       </div>
     </div>
   );
