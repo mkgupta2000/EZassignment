@@ -1,27 +1,27 @@
 .Rectangle {
-  top: 72px;
-  left: 537px;
-
-  height: 204px;
+  height: 16vh;
+  width: 77vw;
+  border-radius: 10px;
   background: transparent 0% 0% no-repeat padding-box;
   box-shadow: 0px 1px 6px #00000029;
   opacity: 1;
+  padding: 8px;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 .rec-boxone {
   display: flex;
+  justify-content: space-between;
 }
-
+.pvt-lmt {
+  display: flex;
+}
 .pdf-logo {
-  top: 88px;
-  left: 559px;
-  width: 74px;
-  height: 45px;
-  border: 1px solid #f20020;
+  width: 45px;
+
   opacity: 1;
 }
 .lucasfilmspvtlmt {
-  top: 100px;
-  left: 606px;
   width: 237px;
   height: 24px;
   background: transparent 0% 0% no-repeat padding-box;
@@ -29,10 +29,8 @@
 }
 
 .Edit-btn {
-  margin-left: 970px;
   color: white;
-  top: 90px;
-  left: 1748px;
+
   width: 156px;
   height: 41px;
   /* UI Properties */

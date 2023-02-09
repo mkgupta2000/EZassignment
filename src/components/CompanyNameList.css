@@ -6,3 +6,9 @@
   background: transparent 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+.Sidebar-cards {
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 17vw;
+  height: 73vh;
+}

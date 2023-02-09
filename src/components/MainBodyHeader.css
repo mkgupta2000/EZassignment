@@ -1,9 +1,11 @@
 .mainbody-header {
-  border: 1px solid red;
-  top: 0px;
-  left: 537px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 6vh;
+  width: 78vw;
+  border-radius: 10px;
 
-  height: 52px;
   background: transparent 0% 0% no-repeat padding-box;
   box-shadow: 0px 1px 6px #00000029;
   opacity: 1;

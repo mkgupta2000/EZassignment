@@ -12,10 +12,9 @@ export const SideBarCards = ({ companyName, code, entities, users }) => {
       onClick={toggle}
       className={"toggle--button " + (state ? "toggle--close" : "")}
     >
-      {/* {state ? "mckinsey & company" : "company name"} */}
       <div className="card-child">
         <div>{companyName}</div>
-        {/* <div style={state ? (display: "none") : (display: "block")}></div> (sir's code)*/}
+
         <div>{code}</div>
       </div>
       <div className="card-child">

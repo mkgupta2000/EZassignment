@@ -1,20 +1,24 @@
 import "./Rectangle.css";
 import React from "react";
-import NestedList from "./Domains";
 
 export const Rectangle = () => {
   return (
     <div className="Rectangle">
       <div className="rec-boxone">
-        <div className="pdfbox">
-          <img src="./images/downloadpdf.jpg" className="pdf-logo" alt="Cpdf" />
-        </div>
         <div className="pvt-lmt">
-          <img
+          <div className="pdfbox">
+            <img
+              src="./images/downloadpdf.jpg"
+              className="pdf-logo"
+              alt="Cpdf"
+            />
+          </div>
+          <h2>Lucas Films Private Limited</h2>
+          {/* <img
             src="./images/Lucas Films Private Limited.jpg"
             className="Lucasfilmspvtlmt"
             alt="lucas films private limited"
-          />
+          /> */}
         </div>
         <div>
           <button className="Edit-btn">Edit</button>

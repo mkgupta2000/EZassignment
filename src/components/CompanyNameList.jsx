@@ -52,24 +52,6 @@ export const CompanyNameList = () => {
       entities: "8 Entities",
       users: "64 Users",
     },
-    {
-      companyName: "Company Name",
-      code: "CODE",
-      entities: "8 Entities",
-      users: "64 Users",
-    },
-    {
-      companyName: "Company Name",
-      code: "CODE",
-      entities: "8 Entities",
-      users: "64 Users",
-    },
-    {
-      companyName: "Company Name",
-      code: "CODE",
-      entities: "8 Entities",
-      users: "64 Users",
-    },
   ];
   return (
     <>
@@ -89,15 +71,17 @@ export const CompanyNameList = () => {
           <option value=" December"> December 2021</option>
         </select>
       </div>
-      {companyData.map((data, index) => (
-        <SideBarCards
-          companyName={data.companyName}
-          code={data.code}
-          entities={data.entities}
-          users={data.users}
-          key={index}
-        />
-      ))}
+      <div className="Sidebar-cards">
+        {companyData.map((data, index) => (
+          <SideBarCards
+            companyName={data.companyName}
+            code={data.code}
+            entities={data.entities}
+            users={data.users}
+            key={index}
+          />
+        ))}
+      </div>
     </>
   );
 };

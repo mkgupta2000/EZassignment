@@ -1,16 +1,9 @@
 .Sidebar-Maincontainer {
   display: flex;
-  /* justify-content: space-between; */
-  border: 1px solid blue;
+
   height: 90vh;
-  width: 20vw;
 }
 .Side-Ribbon {
   width: 40px;
   height: 100%;
-  border: 1px solid blue;
-}
-.Side-Body {
-  border: 1px solid blue;
-  width: 20vw;
 }

@@ -1,6 +1,6 @@
 .ClientsHeader {
-  width: 339px;
-  border: 1px solid red;
+  width: 18vw;
+
   height: 80px;
 }
 
@@ -33,7 +33,7 @@
   justify-content: flex-end;
 
   align-items: center;
-  width: 60px;
+  width: 113px;
   height: 45px;
 }
 .box-two {
@@ -48,7 +48,7 @@
 .searchTerm {
   display: flex;
   align-items: flex-end;
-  width: 400px;
+  width: 13vw;
   height: 27px;
 }
 .searchButton {
@@ -66,9 +66,10 @@
 .month-select {
   top: 109px;
   left: 72px;
-  width: 340px;
+  width: 17vw;
   height: 31px;
   background: transparent 0% 0% no-repeat padding-box;
   opacity: 1;
   background-color: #ebf2f5;
+  border-radius: 5px;
 }

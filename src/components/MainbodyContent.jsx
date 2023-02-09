@@ -1,9 +1,11 @@
 import "./MainbodyContent.css";
 import React from "react";
+import AddBoxIcon from "@mui/icons-material/AddBox";
+import { EntitiesTable } from "./EntitiesTable";
 
 export const MainbodyContent = () => {
   return (
-    <div>
+    <div className="Body-Container">
       <div className="MainbodyNavbar">
         <ul>
           <li>
@@ -18,6 +20,19 @@ export const MainbodyContent = () => {
             <a href="#Users">Users</a>
           </li>
         </ul>
+      </div>
+      <div className="MainbodyContent">
+        <div className="topcontent">
+          <div>Entities</div>
+          <div>
+            <AddBoxIcon color="primary" fontSize="large" />
+          </div>
+        </div>
+        <div className="Entities-Table">
+          <EntitiesTable />
+          <EntitiesTable />
+          <EntitiesTable />
+        </div>
       </div>
     </div>
   );

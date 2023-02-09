@@ -9,7 +9,6 @@ export const MainBody = () => {
   return (
     <Box
       sx={{
-        border: "1px solid green",
         height: "100%",
         widht: "60vw",
         padding: "0",

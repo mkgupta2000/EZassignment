@@ -1,3 +1,6 @@
+.Body-Container {
+  /* background-color: #ebf2f5; */
+}
 .MainbodyNavbar {
   display: flex;
   margin-top: 2px;
@@ -7,7 +10,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
 }
 
 li {
@@ -24,4 +26,21 @@ li a {
 
 li a:hover {
   background-color: #112949;
+}
+.MainbodyContent {
+  width: 78vw;
+  height: 63vh;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  box-shadow: 0px 1px 6px #00000029;
+  opacity: 1;
+  overflow: hidden;
+}
+.topcontent {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.Entities-Table {
+  padding: 0 10px;
 }
