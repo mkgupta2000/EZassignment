@@ -41,7 +41,6 @@ export const ClientsHeader = () => {
         ></input>
         <button type="submit" class="searchButton">
           <SearchIcon />
-          {/* <i class="fa fa-search"></i> */}
         </button>
       </div>
     </div>

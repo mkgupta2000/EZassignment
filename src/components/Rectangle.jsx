@@ -14,11 +14,6 @@ export const Rectangle = () => {
             />
           </div>
           <h2>Lucas Films Private Limited</h2>
-          {/* <img
-            src="./images/Lucas Films Private Limited.jpg"
-            className="Lucasfilmspvtlmt"
-            alt="lucas films private limited"
-          /> */}
         </div>
         <div>
           <button className="Edit-btn">Edit</button>
