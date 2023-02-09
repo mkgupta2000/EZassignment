@@ -1,4 +1,9 @@
 # Getting Started with Create React App
+# Plan on deploying this to the production environment
+-before deploying we can think that what else we can improve. 
+-well planned testing.
+-and deploying it in a manner that it will take less time for user to upload.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
